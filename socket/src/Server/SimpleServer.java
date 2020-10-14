@@ -6,73 +6,20 @@ import java.net.Socket;
 import java.util.Scanner;
 
 public class SimpleServer {
+    public static int port1 = 9999;
+    public static int port2= 3000;
     public static void main(String args[]) {
-
         ServerSocket listener = null;
-        String line;
-        BufferedReader is;
-        BufferedWriter os;
-        Socket socketOfServer = null;
-        Scanner sc = new Scanner(System.in);
-
-
-        // Mở một ServerSocket tại cổng 9999.
-        // Chú ý bạn không thể chọn cổng nhỏ hơn 1023 nếu không là người dùng
-        // đặc quyền (privileged users (root)).
         try {
-            listener = new ServerSocket(9999);
+            listener = new ServerSocket(port1);
         } catch (IOException e) {
             System.out.println(e);
             System.exit(1);
         }
 
-        try {
-            System.out.println("Server is waiting to accept user...");
-
-
-            // Chấp nhận một yêu cầu kết nối từ phía Client.
-            // Đồng thời nhận được một đối tượng Socket tại server.
-
-            socketOfServer = listener.accept();
-            System.out.println("Accept a client!");
-
-            is = new BufferedReader(new InputStreamReader(socketOfServer.getInputStream()));
-            os = new BufferedWriter(new OutputStreamWriter(socketOfServer.getOutputStream()));
-            // Mở luồng vào ra trên Socket tại Server.
-
-
-
-            // Nhận được dữ liệu từ người dùng và gửi lại trả lời.
-            while (true) {
-
-                // Đọc dữ liệu tới server (Do client gửi tới).
-                line = is.readLine();
-                if (line.equals("QUIT")) os.write(">> PP");
-                // Ghi vào luồng đầu ra của Socket tại Server.
-                // (Nghĩa là gửi tới Client).
-                else
-                os.write(">> " + line);
-                // Kết thúc dòng
-                os.newLine();
-                // Đẩy dữ liệu đi
-                os.flush();
-
-                // Nếu người dùng gửi tới QUIT (Muốn kết thúc trò chuyện).
-                if (line.equals("QUIT")) {
-                    socketOfServer = listener.accept();
-                    System.out.println("Accept a client!");
-
-                    is = new BufferedReader(new InputStreamReader(socketOfServer.getInputStream()));
-                    os = new BufferedWriter(new OutputStreamWriter(socketOfServer.getOutputStream()));
-                }
-                else {System.out.println(line);}
-            }
-
-        } catch (IOException e) {
-            System.out.println(e);
-            e.printStackTrace();
-        }
-        System.out.println("Sever stopped!");
+Thread t1= new ListenThread(listener);
+        t1.start();
+        Thread t2= new ListenThread(listener);
+        t2.start();
     }
-
 }

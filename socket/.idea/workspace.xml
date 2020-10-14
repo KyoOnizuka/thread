@@ -1,8 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2c887e4d-421d-421d-ae4f-eded7c71754b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ClientThread/ReceiveThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClientThread/SendThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/SimpleClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/SimpleClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/SimpleClient2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/SimpleClient2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/ListenThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/ListenThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/SendThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/SendThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/SimpleServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/SimpleServer.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1irDf16V7qJz95McHLySqjuzvB4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SimpleClient2">
+    <configuration name="SimpleClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client.SimpleClient" />
+      <module name="socket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleClient2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client.SimpleClient2" />
+      <module name="socket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Server.SimpleServer" />
+      <module name="socket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SimpleClient2" />
+        <item itemvalue="Application.SimpleClient" />
+        <item itemvalue="Application.SimpleServer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c887e4d-421d-421d-ae4f-eded7c71754b" name="Default Changelist" comment="" />
+      <created>1602656917434</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602656917434</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="466" y="91" width="1024" height="852" key="#Project_Structure" timestamp="1602656954455">
+      <screen x="67" y="27" width="1833" height="973" />
+    </state>
+    <state x="466" y="91" width="1024" height="852" key="#Project_Structure/67.27.1833.973@67.27.1833.973" timestamp="1602656954455" />
+    <state x="791" y="232" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1602661555928">
+      <screen x="67" y="27" width="1833" height="973" />
+    </state>
+    <state x="791" y="232" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/67.27.1833.973@67.27.1833.973" timestamp="1602661555928" />
+    <state x="746" y="401" width="464" height="232" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1602657220786">
+      <screen x="67" y="27" width="1833" height="973" />
+    </state>
+    <state x="746" y="401" width="464" height="232" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/67.27.1833.973@67.27.1833.973" timestamp="1602657220786" />
+    <state width="1785" height="248" key="GridCell.Tab.0.bottom" timestamp="1602663054086">
+      <screen x="67" y="27" width="1833" height="973" />
+    </state>
+    <state width="1785" height="248" key="GridCell.Tab.0.bottom/67.27.1833.973@67.27.1833.973" timestamp="1602663054086" />
+    <state width="1785" height="248" key="GridCell.Tab.0.center" timestamp="1602663054085">
+      <screen x="67" y="27" width="1833" height="973" />
+    </state>
+    <state width="1785" height="248" key="GridCell.Tab.0.center/67.27.1833.973@67.27.1833.973" timestamp="1602663054085" />
+    <state width="1785" height="248" key="GridCell.Tab.0.left" timestamp="1602663054085">
+      <screen x="67" y="27" width="1833" height="973" />
+    </state>
+    <state width="1785" height="248" key="GridCell.Tab.0.left/67.27.1833.973@67.27.1833.973" timestamp="1602663054085" />
+    <state width="1785" height="248" key="GridCell.Tab.0.right" timestamp="1602663054086">
+      <screen x="67" y="27" width="1833" height="973" />
+    </state>
+    <state width="1785" height="248" key="GridCell.Tab.0.right/67.27.1833.973@67.27.1833.973" timestamp="1602663054086" />
   </component>
 </project>
