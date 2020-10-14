@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c887e4d-421d-421d-ae4f-eded7c71754b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ClientThread/ReceiveThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClientThread/SendThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClientService/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Server/ConnectionThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/SimpleClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/SimpleClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/SimpleClient2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/SimpleClient2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/socket/Server/ListenThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/socket/Server/ListenThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/socket/Server/SendThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/socket/Server/SimpleServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/socket/Server/SimpleServer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Server/ListenThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/ListenThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/SendThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/SendThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/SendThread.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Server/SimpleServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/SimpleServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,29 +109,49 @@
       <screen x="67" y="27" width="1833" height="973" />
     </state>
     <state x="466" y="91" width="1024" height="852" key="#Project_Structure/67.27.1833.973@67.27.1833.973" timestamp="1602656954455" />
-    <state x="791" y="232" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1602661555928">
+    <state x="702" y="312" width="553" height="409" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602667406945">
       <screen x="67" y="27" width="1833" height="973" />
     </state>
-    <state x="791" y="232" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/67.27.1833.973@67.27.1833.973" timestamp="1602661555928" />
+    <state x="702" y="312" width="553" height="409" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1833.973@67.27.1833.973" timestamp="1602667406945" />
+    <state x="791" y="232" width="374" height="569" key="#com.intellij.ide.util.MemberChooser" timestamp="1602668548529">
+      <screen x="67" y="27" width="1833" height="973" />
+    </state>
+    <state x="791" y="232" width="374" height="569" key="#com.intellij.ide.util.MemberChooser/67.27.1833.973@67.27.1833.973" timestamp="1602668548529" />
     <state x="746" y="401" width="464" height="232" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1602657220786">
       <screen x="67" y="27" width="1833" height="973" />
     </state>
     <state x="746" y="401" width="464" height="232" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/67.27.1833.973@67.27.1833.973" timestamp="1602657220786" />
-    <state width="1785" height="248" key="GridCell.Tab.0.bottom" timestamp="1602663054086">
+    <state width="1785" height="248" key="GridCell.Tab.0.bottom" timestamp="1602673296984">
       <screen x="67" y="27" width="1833" height="973" />
     </state>
-    <state width="1785" height="248" key="GridCell.Tab.0.bottom/67.27.1833.973@67.27.1833.973" timestamp="1602663054086" />
-    <state width="1785" height="248" key="GridCell.Tab.0.center" timestamp="1602663054085">
+    <state width="1785" height="248" key="GridCell.Tab.0.bottom/67.27.1833.973@67.27.1833.973" timestamp="1602673296984" />
+    <state width="1785" height="248" key="GridCell.Tab.0.center" timestamp="1602673296983">
       <screen x="67" y="27" width="1833" height="973" />
     </state>
-    <state width="1785" height="248" key="GridCell.Tab.0.center/67.27.1833.973@67.27.1833.973" timestamp="1602663054085" />
-    <state width="1785" height="248" key="GridCell.Tab.0.left" timestamp="1602663054085">
+    <state width="1785" height="248" key="GridCell.Tab.0.center/67.27.1833.973@67.27.1833.973" timestamp="1602673296983" />
+    <state width="1785" height="248" key="GridCell.Tab.0.left" timestamp="1602673296983">
       <screen x="67" y="27" width="1833" height="973" />
     </state>
-    <state width="1785" height="248" key="GridCell.Tab.0.left/67.27.1833.973@67.27.1833.973" timestamp="1602663054085" />
-    <state width="1785" height="248" key="GridCell.Tab.0.right" timestamp="1602663054086">
+    <state width="1785" height="248" key="GridCell.Tab.0.left/67.27.1833.973@67.27.1833.973" timestamp="1602673296983" />
+    <state width="1785" height="248" key="GridCell.Tab.0.right" timestamp="1602673296983">
       <screen x="67" y="27" width="1833" height="973" />
     </state>
-    <state width="1785" height="248" key="GridCell.Tab.0.right/67.27.1833.973@67.27.1833.973" timestamp="1602663054086" />
+    <state width="1785" height="248" key="GridCell.Tab.0.right/67.27.1833.973@67.27.1833.973" timestamp="1602673296983" />
+    <state width="1785" height="248" key="GridCell.Tab.1.bottom" timestamp="1602672275801">
+      <screen x="67" y="27" width="1833" height="973" />
+    </state>
+    <state width="1785" height="248" key="GridCell.Tab.1.bottom/67.27.1833.973@67.27.1833.973" timestamp="1602672275801" />
+    <state width="1785" height="248" key="GridCell.Tab.1.center" timestamp="1602672275800">
+      <screen x="67" y="27" width="1833" height="973" />
+    </state>
+    <state width="1785" height="248" key="GridCell.Tab.1.center/67.27.1833.973@67.27.1833.973" timestamp="1602672275800" />
+    <state width="1785" height="248" key="GridCell.Tab.1.left" timestamp="1602672275800">
+      <screen x="67" y="27" width="1833" height="973" />
+    </state>
+    <state width="1785" height="248" key="GridCell.Tab.1.left/67.27.1833.973@67.27.1833.973" timestamp="1602672275800" />
+    <state width="1785" height="248" key="GridCell.Tab.1.right" timestamp="1602672275801">
+      <screen x="67" y="27" width="1833" height="973" />
+    </state>
+    <state width="1785" height="248" key="GridCell.Tab.1.right/67.27.1833.973@67.27.1833.973" timestamp="1602672275801" />
   </component>
 </project>
